@@ -1,26 +1,79 @@
-body {
-background: #F6F6F6;
-font-family: 'Arquitecta', sans-serif;
-
+header {
+  background-color: #99A1A7;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.logo img {
+  max-height: 70px;
+  display: block;
+  margin: 0 auto;
+}
+.corner-icon {
+  position: absolute;
+  top: 55px;
+  right: 40px;
+}
+
+.corner-icon i {
+  font-size: 55px;
+  color: #000000;
+}
+
+body {
+  background: #F6F6F6;
+  font-family: 'Arquitecta', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+h1{
+  font-size: 55px;
+  margin: 15px;
+  padding: 30px;
+}
+.wrapper {
+  flex: 1;
+}
+
+.main-content {
+  flex: 1;
+  position: relative;
+}
+
 footer {
-  background-color: #f2f2f2;
+  background-color: #F6F6F6;
   padding: 20px 0;
 }
 
-.container {
+.footer-icons {
   display: flex;
-  justify-content: space-between;
-}
-
-.column {
-  flex-basis: 50%; /* Adjust the width of columns as per your design */
-}
-
-.column p {
-  color: #666666;
-  font-size: 14px;
-}
-li {
+  justify-content: center;
+  align-items: flex-end;
   list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-icons li {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.footer-icons li a {
+  margin-top: 5px;
+  text-decoration: none;
+  color: #000000;
+  font-size: 20px;
+}
+
+.footer-icons li i {
+  font-size: 50px;
 }
