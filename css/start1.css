@@ -33,3 +33,19 @@ p {
   margin-bottom: -140px;
   margin-top: 150px;
 }
+
+.login {
+  background-color: #383838;
+  border: none;
+  color: white;
+  padding: 45px 100px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  width: 150px;
+   }
