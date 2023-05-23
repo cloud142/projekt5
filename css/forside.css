@@ -58,10 +58,13 @@ h1{
   display: flex;
 }
 .side-by-side {
-  
+
 }
 .side-by-side img {
-
+  margin-left: 40%;
+  height: auto;
+  width: 100px;
+  margin-bottom: 20px;
 
 }
 .main-content {
