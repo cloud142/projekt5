@@ -1,0 +1,55 @@
+body {
+font-family: 'Arquitecta', sans-serif;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  flex-shrink: 0;
+  background-color: #F6F6F6;
+  padding: 20px 0;
+  text-align: center;
+  position: sticky;
+  bottom: 0;
+}
+
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-icons li {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.footer-icons li a {
+  margin-top: 5px;
+  text-decoration: none;
+  color: #000000;
+  font-size: 20px;
+}
+
+.footer-icons li i {
+  font-size: 50px;
+}
