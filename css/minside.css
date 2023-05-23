@@ -94,3 +94,9 @@ width: 76%;
   .log {
   margin-right: -100px;
   }
+
+  .over a {
+    border: none;
+    text-decoration: none;
+    color: #383838;
+  }
