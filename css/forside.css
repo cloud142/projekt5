@@ -37,8 +37,23 @@ h1{
 }
 .wrapper {
   flex: 1;
+  margin-top: -50px;
 }
-
+.wrapper img{
+  margin-top: -400px;
+}
+.forsidebilled{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  max-height: 100%;
+}
+.wrapper h1{
+  margin-top: 750px;
+  margin-left: 170px;
+}
 .main-content {
   flex: 1;
   position: relative;
