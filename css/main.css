@@ -53,3 +53,9 @@ footer {
 .footer-icons li i {
   font-size: 50px;
 }
+
+a {
+  border: none;
+  text-decoration: none;
+  color: #383838;
+}
