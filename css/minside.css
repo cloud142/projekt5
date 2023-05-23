@@ -31,12 +31,12 @@ width: 76%;
     margin-right: -150px;
     font-size: 60px;
     margin-left: 100px;
+    color: #383838;
   }
 
   h3 {
   font-size: 60px;
   background-color: #99A1A7;
-
   color: #383838;
   padding: 30px 120px;
   text-align: left;
@@ -44,5 +44,59 @@ width: 76%;
   margin-right: auto;
   margin-top: 0px;
   width: 76%;
+  }
 
-}
+  p {
+  font-size: 30px;
+  color: #383838;
+  }
+
+  .over i, .konto i,.os i {
+  margin-right: 47px;
+  margin-left: 80px;
+  font-size: 60px;
+  }
+
+ .over p, .konto p{
+   margin-left: 10px;
+   margin-bottom: 70px;
+   }
+
+   .spacer {
+  margin-right: 280px;
+  }
+
+  .pil {
+  margin-right: 54.5%;
+  }
+
+  .pil1 {
+  margin-right: 10px;
+  }
+
+  .pil2 {
+  margin-right: 56%;
+  }
+
+  .pil3 {
+  margin-right: 41.5%;
+  }
+
+  .over,.konto,.os {
+  margin-bottom: 120px;
+  }
+
+  .os p {
+  margin-left: 120px;
+  margin-bottom: 70px;
+  }
+
+  .log {
+  margin-right: -100px;
+  }
+
+  .over a {
+    border: none;
+    text-decoration: none;
+    color: #383838;
+  }
