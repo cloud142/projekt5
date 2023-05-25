@@ -1,0 +1,77 @@
+body {
+background-color: #F6F6F6;
+}
+
+.info {
+  background-color: #D4DBE0;
+  margin-top: -50px;
+}
+
+.info h2 {
+  margin-left: 30px;
+  font-size: 60px;
+  padding: 40px;
+}
+
+.info p {
+  margin-left: 60px;
+  margin-top: -50px;
+  font-size: 30px;
+}
+
+.produkt h2{
+  margin-left: 10%;
+  margin-top: 40px;
+}
+.box {
+     display: flex;
+     justify-content: center;
+     margin-left: 2%;
+   }
+
+   .box p {
+     background-color: #383838;
+     color: white;
+     font-size: 35px;
+     padding: 25px 40px;
+     margin: 5px;
+   }
+
+   .over h2 {
+        font-size: 50px;
+        margin-left: 10%;
+        margin-top: 10%;
+      }
+
+      .boxene {
+        display: flex;
+        justify-content: center;
+      }
+
+      .taske1 {
+        background-color: white;
+        width: 400px;
+        height: 600px;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15%;
+      }
+
+      .taske1 img {
+        width: 400px;
+        height: auto;
+        margin-bottom: 85%;
+      }
+
+      .taske1 p {
+        font-size: 40px;
+        margin-top: -10px;
+        }
+
+      .boxene h2 {
+        font-size: 50px;
+        margin-top: -55%;
+        }

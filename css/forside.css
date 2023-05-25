@@ -32,8 +32,8 @@ body {
 }
 h1{
   font-size: 55px;
-  margin: 15px;
-  padding: 30px;
+  margin: 10px;
+  padding: 50px;
 }
 .wrapper {
   flex: 1;
@@ -69,22 +69,84 @@ h1{
   display: flex;
 }
 .shopping h2 {
-  font-family: 'Arquitecta', bold;
   font-weight: bold;
-  margin-top: -300px;
+  margin-top: 400px;
   margin-left: 50px;
   font-size: 70px;
   z-index: 1;
 }
 .shopping p {
-  margin-top: -230px;
+  margin-top: 500px;
   margin-left: -155px;
   font-size: 45px;
   z-index: 1;
 }
-h1 {
-  margin-top: px;
+.nye h1 {
+  margin-top: 50px;
   margin-left: 230px;
+}
+.image img {
+  margin-left: -15px;
+  width: 800px;
+  height: auto;
+  z-index: 2;
+}
+.image {
+  text-align: center;
+}
+.text-box {
+  margin-top: -10px;
+  margin-right: 10%;
+  margin-left: 8.5%;
+  margin-bottom: 30px;
+  background-color: #383838;
+  color: #FFFFFF;
+  padding: 10px 50px;
+}
+.image p{
+  font-size: 25px;
+}
+.image1 img {
+  margin-left: -15px;
+  width: 800px;
+  height: auto;
+  z-index: 2;
+}
+.image1 {
+  text-align: center;
+}
+.text-box1 {
+  margin-top: -10px;
+  margin-right: 10%;
+  margin-left: 8.5%;
+  margin-bottom: 30px;
+  background-color: #383838;
+  color: #FFFFFF;
+  padding: 10px 50px;
+}
+.image1 p{
+  font-size: 25px;
+}
+.image2 img {
+  margin-left: -15px;
+  width: 800px;
+  height: auto;
+  z-index: 2;
+}
+.image2 {
+  text-align: center;
+}
+.text-box2 {
+  margin-top: -10px;
+  margin-right: 10%;
+  margin-left: 8.5%;
+  margin-bottom: 30px;
+  background-color: #383838;
+  color: #FFFFFF;
+  padding: 10px 50px;
+}
+.image2 p{
+  font-size: 25px;
 }
 
 .main-content {
