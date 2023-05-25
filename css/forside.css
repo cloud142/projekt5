@@ -32,8 +32,8 @@ body {
 }
 h1{
   font-size: 55px;
-  margin: 15px;
-  padding: 30px;
+  margin: 10px;
+  padding: 50px;
 }
 .wrapper {
   flex: 1;
@@ -82,9 +82,13 @@ h1{
   font-size: 45px;
   z-index: 1;
 }
-h1 {
+.nye h1 {
   margin-top: px;
   margin-left: 230px;
+}
+.nye image dame2 {
+  margin-top: 750px;
+  margin-left: 170px;
 }
 
 .main-content {
