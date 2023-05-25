@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+  <script src="js/soge.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" >
+    <link rel="stylesheet" href="css/soge.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.cdnfonts.com/css/arquitecta" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d695244064.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Søge</title>
+</head>
+
+<body>
+<main>
+
+    <div class="flex-container-full">
+        <div class="flex-item-full ">
+            <div class="input-icons">
+                <i class="material-symbols-outlined ">
+                    search
+                </i>
+                <input class="input-field" type="text" placeholder="søg">
+            </div>
+        </div>
+    </div>
+    <div class="flex-container-full ">
+        <div class="flex-item-full dropdown-menu-color ">
+            <p id="Dame" class="clickable" onclick="dropMenu(this.id)">DAME<span class="material-symbols-outlined">
+
+               </span></p>
+
+        </div>
+        <div id="DameDropdown" class="flex-item-dropdwon dropdown-content">
+            <p>Tasker
+                <span class="material-symbols-outlined">
+                    chevron_right
+                </span>
+            </p>
+          <a href="guess.html"><p>Guess
+                <span class="material-symbols-outlined">
+                    chevron_right
+
+                </span>
+            </p>
+            </a>
+            <p>Accessories
+                <span class="material-symbols-outlined">
+                    chevron_right
+                </span>
+            </p>
+        </div>
+        <div class="flex-item-full dropdown-menu-color ">
+            <p id="Herrer" class="clickable" onclick="dropMenu(this.id)">HERRER<span class="material-symbols-outlined">
+                    expand_more
+                </span></p>
+
+        </div>
+        <div id="HerrerDropdown" class="flex-item-dropdwon dropdown-content">
+            <p>Tasker
+                <span class="material-symbols-outlined">
+                    chevron_right
+                </span>
+            </p>
+            <p>Rygsække
+                <span class="material-symbols-outlined">
+                    chevron_right
+                </span>
+            </p>
+            <p>Accessories
+                <span class="material-symbols-outlined">
+                    chevron_right
+                </span>
+            </p>
+        </div>
+        <div class="flex-item-full dropdown-menu-color ">
+            <p id="Børn" class="clickable" onclick="dropMenu(this.id)">BØRN<span class="material-symbols-outlined">
+                    expand_more
+                </span></p>
+
+        </div>
+        <div id="BørnDropdown" class="flex-item-dropdwon dropdown-content">
+            <p>Tasker
+                <span class="material-symbols-outlined">
+                    chevron_right
+                </span>
+            </p>
+            <p> Penalhus
+                <span class="material-symbols-outlined">
+                    chevron_right
+                </span>
+            </p>
+            <p> Rygsække
+                <span class="material-symbols-outlined">
+                    chevron_right
+                </span>
+            </p>
+        </div>
+        <div class="flex-item-full dropdown-menu-color ">
+            <p id="Kufferter" class="clickable" onclick="dropMenu(this.id)">KUFFERTER<span class="material-symbols-outlined">
+                    expand_more
+                </span></p>
+
+        </div>
+        <div id="KufferterDropdown" class="flex-item-dropdwon dropdown-content">
+            <p>Børnekufferter
+                <span class="material-symbols-outlined">
+                    chevron_right
+                </span>
+            </p>
+            <p>Hardcase kufferter
+                <span class="material-symbols-outlined">
+                    chevron_right
+                </span>
+            </p>
+            <p>Tilbehør til rejsen
+                <span class="material-symbols-outlined">
+                    chevron_right
+                </span>
+            </p>
+        </div>
+        <div class="flex-item-full dropdown-menu-color ">
+            <p id="OutDoor" class="clickable" onclick="dropMenu(this.id)">OUTDOOR<span class="material-symbols-outlined">
+                    expand_more
+                </span></p>
+
+        </div>
+        <div id="OutDoorDropdown" class="flex-item-dropdwon dropdown-content">
+            <p> Drikkedunke
+                <span class="material-symbols-outlined">
+                    chevron_right
+                </span>
+            </p>
+            <p> Skuldertasker
+                <span class="material-symbols-outlined">
+                    chevron_right
+                </span>
+            </p>
+            <p>Cykeltasker
+                <span class="material-symbols-outlined">
+                    chevron_right
+                </span>
+            </p>
+        </div>
+        <div class="flex-item-full dropdown-menu-color ">
+            <p id="Bolig" class="clickable" onclick="dropMenu(this.id)">BOLIG<span class="material-symbols-outlined">
+                    expand_more
+                </span></p>
+
+        </div>
+        <div id="BoligDropdown" class="flex-item-dropdwon dropdown-content">
+            <p>BLØD BOLIG
+                <span class="material-symbols-outlined">
+                    chevron_right
+                </span>
+            </p>
+            <p>TO GO
+                <span class="material-symbols-outlined">
+                    chevron_right
+                </span>
+            </p>
+            <p>BAD & WELLNESS
+                <span class="material-symbols-outlined">
+                    chevron_right
+                </span>
+            </p>
+        </div>
+        <div class="flex-item-full dropdown-menu-color ">
+            <p id="Brands" class="clickable" onclick="dropMenu(this.id)">BRANDS<span class="material-symbols-outlined">
+                    expand_more
+                </span></p>
+
+        </div>
+        <div id="BrandsDropdown" class="flex-item-dropdwon dropdown-content">
+            <p>AEVOR
+                <span class="material-symbols-outlined">
+                    chevron_right
+                </span>
+            </p>
+            <p>Guess
+                <span class="material-symbols-outlined">
+                    chevron_right
+                </span>
+            </p>
+            <p>Calvin Klein
+                <span class="material-symbols-outlined">
+                    chevron_right
+                </span>
+            </p>
+        </div>
+        <div class="flex-item-full dropdown-menu-color ">
+            <p id="Tilbud" class="clickable" onclick="dropMenu(this.id)">TILBUD<span class="material-symbols-outlined">
+                    expand_more
+                </span></p>
+
+        </div>
+        <div id="TilbudDropdown" class="flex-item-dropdwon dropdown-content">
+            <p>TILBUD DAME
+                <span class="material-symbols-outlined">
+                    chevron_right
+                </span>
+            </p>
+            <p>TILBUD HERRE
+                <span class="material-symbols-outlined">
+                    chevron_right
+                </span>
+            </p>
+            <p>TILBUD HERRE
+                <span class="material-symbols-outlined">
+                    chevron_right
+                </span>
+            </p>
+        </div>
+    </div>
+</main>
+    <footer>
+      <ul class="footer-icons">
+        <li><i class="fas fa-house"></i><a href="forside.html">Hjem</a></li>
+        <li><i class="fas fa-search"></i><a href="soge.html">Søg</a></li>
+        <li><i class="far fa-heart"></i><a href="favroritter.html">Favoritter</a></li>
+        <li><i class="fas fa-shopping-cart"></i><a href="kurv.html">Kurv</a></li>
+        <li><i class="far fa-user"></i><a href="minside.html">Min profil</a></li>
+      </ul>
+    </footer>
+
+
+</body>
+</html>
