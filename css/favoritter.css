@@ -1,0 +1,99 @@
+
+
+.toptekst {
+  max-height: 70px;
+  display: block;
+  margin: 0 auto;
+
+}
+.toptekst h1{
+  color: black;
+  font-size: 40px;
+
+}
+.leftcorner-icon {
+  position: absolute;
+  top: 55px;
+  right: 40px;
+  font-size: 55px;
+  color: #000000;
+}
+.rigthcorner-icon {
+  position: absolute;
+  top: 55px;
+  right: 860px;
+  font-size: 55px;
+  color: #000000;
+}
+
+body {
+  background: #F6F6F6;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.table {
+  font-family: 'Arquitecta', bold;
+  padding: 20px;
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+  font-size: 55px;
+  color: white;
+  background-color: #99A1A7
+  padding:30px;
+}
+
+
+.billed {
+  display: absolute;
+}
+.favtasker {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: auto;
+}
+.billed {
+  display: flex;
+}
+.billed h2 {
+  font-family: 'Arquitecta', bold;
+  font-weight: bold;
+  margin-top: 650px;
+  margin-left: 80px;
+  font-size: 70px;
+  z-index: 0;
+}
+.billed p {
+  margin-top: 750px;
+  margin-left: -200px;
+  font-size: 45px;
+  z-index: 0;
+}
+.tekst1 h2 {
+  font-family: 'Arquitecta', bold;
+  font-weight: bold;
+  margin-top: 650px;
+  margin-left: 80px;
+  font-size: 70px;
+  z-index: 0;
+}
+.tekst1 p {
+  margin-top: -30px;
+  margin-left: 90px;
+  font-size: 45px;
+  z-index: 0;
+
+  }
+}
+
+.main-content {
+  flex: 1;
+  position: relative;
+}
