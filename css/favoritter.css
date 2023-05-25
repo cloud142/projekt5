@@ -14,7 +14,7 @@
 .leftcorner-icon {
   position: absolute;
   top: 55px;
-  right: 40px;
+  right: 20px;
   font-size: 55px;
   color: #000000;
 }
@@ -39,12 +39,11 @@ body {
   font-family: 'Arquitecta', bold;
   padding: 20px;
   border-collapse: collapse;
-  width: 100%;
+  width: 98%;
   text-align: center;
   font-size: 55px;
   color: white;
   background-color: #99A1A7
-  padding:30px;
 }
 
 
@@ -56,7 +55,7 @@ body {
   top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 100%;
+  width: 90%;
   height: auto;
 }
 .billed {
