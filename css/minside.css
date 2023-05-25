@@ -62,6 +62,10 @@ width: 76%;
    margin-bottom: 70px;
    }
 
+  .over i {
+    font-size: 30px;
+    }
+
    .spacer {
   margin-right: 280px;
   }
@@ -94,5 +98,3 @@ width: 76%;
   .log {
   margin-right: -100px;
   }
-
-  
