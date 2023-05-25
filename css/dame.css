@@ -1,0 +1,49 @@
+header {
+padding: 35px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.left,
+.right {
+  flex: 0 0 auto;
+  margin-left: 30%;
+  margin-right: 30%;
+  font-size: 55px;
+}
+
+h1 {
+  flex: 1;
+  text-align: center;
+  font-size: 45px;
+}
+.første-billed img{
+  margin-top: -400px;
+}
+.dame{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.main-content {
+  flex: 1;
+  position: relative;
+}
