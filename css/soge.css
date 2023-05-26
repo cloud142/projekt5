@@ -1,0 +1,249 @@
+/*her starter font import */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+/* id stylling starter her*/
+#login-rabat {
+    margin: 10px 0px 10px 0px;
+}
+
+
+
+/* class styling starter her*/
+/* her starter generale stylings*/
+
+
+.with-100 {
+    width: 100%;
+    height: auto;
+}
+
+.clear-m-p {
+    margin: 0;
+    padding: 0;
+}
+
+.align-text {
+    text-align: center;
+}
+
+.border-bottom {
+    border-bottom: 2px solid #383838;
+    padding: 0px 0px 10px 0px;
+    margin: 10px 0px 0px 0px !important;
+}
+.padding-top-25{
+    padding: 25px 0px 0px 0px;;
+}
+
+.show{
+    display: block !important;
+}
+.dropdown-content{
+    display: none;
+    overflow: auto;
+    z-index: 1;
+}
+
+/* her starte computer/store tablet stylings */
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    background-color: white;
+    width: 80%;
+    padding: 0 10% 0 10%;
+
+}
+.flex-container-full {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    background-color: white;
+    width: 100%;
+}
+
+.flex-item {
+    flex-basis: calc(33.33% - 10px);
+    margin-bottom: 20px;
+}
+.flex-item p {
+    margin-top: -20px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.flex-item-full{
+    flex-basis: calc(100%);
+}
+.flex-item-full p:first-child{
+    text-align: left;
+    padding: 25px 0 25px 25px;
+    border-bottom: solid 2px #99A1A7;
+    font-size: 22px;
+}
+.flex-item-full p span{
+    float: right;
+    padding-right: 25px;
+}
+
+.flex-item-dropdwon{
+    flex-basis: calc(100%);
+}
+.flex-item-dropdwon p{
+    flex-basis: calc(100%);
+    padding: 10px 20px 10px 25px;
+    text-align: left;
+    border-bottom: solid 2px #99A1A7;
+    font-size: 24px;
+
+}
+.flex-item-dropdwon p span{
+    float: right;
+    padding-right: 5px;
+
+}
+
+/*her starter hero img styling*/
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+/*her start input styling */
+
+.input-icons i {
+    position: absolute;
+    padding: 5px 10px 10px 10px;
+    font-size: 30px;
+}
+
+.input-icons {
+    width: 100%;
+
+}
+
+
+.input-field {
+    width: 95%;
+    padding: 7px 0 10px 10%;
+    text-align: left;
+    border-style : solid ;
+    border-width : 0;
+    font-size: 25px;
+    margin-left: 25px;
+}
+/* her starter color styling */
+
+.item-footer-color {
+    background-color: #383838;
+    color: #D4DBE0;
+
+}
+.dropdown-menu-color{
+    background-color: #9aa1a6;
+}
+
+.item-footer-text-color{
+    color: white;
+}
+
+/*her stater hover styling*/
+
+.clickable:hover{
+    cursor: pointer;
+}
+
+/* her starte mobil stylings */
+@media screen and (max-width: 480px) {
+
+    /* her starter generale stylings mobiler*/
+
+    .flex-item {
+        flex-basis: calc(80%);
+        display: grid;
+        align-items: center;
+        justify-items: center;
+        margin-left: 10%;
+        margin-right: 10%;
+
+    }
+
+    .flex-item img {
+        width: 100%;
+        display: grid;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .flex-item p {
+        margin-top: 0px;
+        padding-top: 5px;
+        text-align: center;
+
+    }
+    /* id stylling starter her for mobiler*/
+    #login-rabat {
+        margin: 5px 0px 5px 0px;
+    }
+    .input-field {
+        width: 90%;
+        padding: 10px 0 10px 5%;
+        text-align: left;
+        border-style : solid ;
+        border-width : 0;
+    }
+}
+
+
+/* her starte table stylings */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+
+    /* her starter generale stylings for tables*/
+
+    .flex-item {
+        flex-basis: calc(40%);
+        display: grid;
+        align-items: center;
+        justify-items: center;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .flex-item p {
+        margin-top: 0px;
+        padding-top: 5px;
+        text-align: center;
+    }
+
+    /* id stylling starter her for tablets*/
+    #login-rabat {
+        margin: 5px 0px 5px 0px;
+    }
+    .input-field {
+        width: 90%;
+        padding: 10px 0 10px 10%;
+        text-align: left;
+        border-style : solid ;
+        border-width : 0;
+    }
+}
+
+/* her starter palece holder css*/
+
+.menu-footer {
+    background-color: beige !important;
+    padding: 10px 0px 10px 0px;
+}
