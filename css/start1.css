@@ -56,9 +56,29 @@ p {
   margin-bottom: 20px;
   width: 150px;
    }
+  .error {
+    color: #cd3333;
+    font-size: 48px;
+    margin-left: 120px;
+    margin-top: 150px;
+  }
+
+ button {
+   background-color: #383838;
+   border: none;
+   color: white;
+   padding: 40px 150px;
+   text-decoration: none;
+   display: block;
+   font-size: 40px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 80px;
+   margin-bottom: 20px;
+ }
 
    @media only screen and (min-width: 1080px) {
-     h1, p {
+     h1, p, .error {
        display: flex;
        align-items: center;
        justify-content: center;
