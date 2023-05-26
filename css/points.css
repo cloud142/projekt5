@@ -1,26 +1,3 @@
-header {
-padding: 35px;
-}
-
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.left,
-.right {
-  flex: 0 0 auto;
-  margin-left: 30%;
-  margin-right: 30%;
-  font-size: 55px;
-}
-
-h1 {
-  flex: 1;
-  text-align: center;
-  font-size: 45px;
-}
 
 .mine{
 font-size: 45px;
@@ -75,7 +52,23 @@ margin-bottom: 70px;
   margin-right: auto;
   margin-top: 190px;
   width: 600px;
+  margin-bottom: 150px;
 }
 .spacer {
 margin-right: 430px;
+}
+
+@media only screen and (min-width: 1080px) {
+
+ .bonus p{
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+
+  }
+
+
 }
