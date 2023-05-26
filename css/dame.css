@@ -20,16 +20,119 @@ h1 {
   text-align: center;
   font-size: 45px;
 }
-.første-billed img{
-  margin-top: -400px;
+.forsidebilled1 {
+  text-align: center;
 }
-.dame{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  max-width: 100%;
-  max-height: 100%;
+.forsidebilled1 img{
+  width: 980px;
+  height: auto;
+}
+.text-box123 {
+  margin-bottom: 30px;
+  background-color: #F6F6F6;
+  color: #383838;
+  padding: 10px 50px;
+}
+.forsidebilled1 p {
+  font-size: 25px;
+}
+.midten h1{
+  margin-top: 90px;
+}
+
+.image img {
+  margin-left: -15px;
+  width: 800px;
+  height: auto;
+  z-index: 2;
+}
+.image {
+  text-align: center;
+}
+.text-box {
+  margin-top: -10px;
+  margin-right: 10%;
+  margin-left: 8.5%;
+  margin-bottom: 30px;
+  background-color: #383838;
+  color: #FFFFFF;
+  padding: 10px 50px;
+}
+.image p{
+  font-size: 25px;
+}
+.image1 img {
+  margin-left: -15px;
+  width: 800px;
+  height: auto;
+  z-index: 2;
+}
+.image1 {
+  text-align: center;
+}
+.text-box1 {
+  margin-top: -10px;
+  margin-right: 10%;
+  margin-left: 8.5%;
+  margin-bottom: 30px;
+  background-color: #383838;
+  color: #FFFFFF;
+  padding: 10px 50px;
+}
+.image1 p{
+  font-size: 25px;
+}
+.image2 img {
+  margin-left: -15px;
+  width: 800px;
+  height: auto;
+  z-index: 2;
+}
+.image2 {
+  text-align: center;
+}
+.text-box2 {
+  margin-top: -10px;
+  margin-right: 10%;
+  margin-left: 8.5%;
+  margin-bottom: 30px;
+  background-color: #383838;
+  color: #FFFFFF;
+  padding: 10px 50px;
+}
+.image2 p{
+  font-size: 25px;
+}
+
+.produkt1 h2{
+  margin-top: 90px;
+  text-align: center;
+
+}
+
+.box1 {
+  display: flex;
+  justify-content: center;
+}
+
+.box1 p {
+  background-color: #383838;
+  color: white;
+  font-size: 45px;
+  padding: 25px 40px;
+  margin: 5px;
+}
+.box2 {
+  display: flex;
+  justify-content: center;
+}
+
+.box2 p {
+  background-color: #383838;
+  color: white;
+  font-size: 40px;
+  padding: 25px 50px;
+  margin: 5px;
 }
 
 
