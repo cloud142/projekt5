@@ -36,6 +36,20 @@ h1 {
 .forsidebilled1 p {
   font-size: 25px;
 }
+
+/*javascript stykke*/
+.countdown {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 50px;
+}
+.countdown2 {
+  background-color: #F6F6F6;
+  color: #383838;
+  padding: 10px 150px;
+  }
+
+
 .midten h1{
   margin-top: 90px;
 }
