@@ -1,0 +1,14 @@
+.Hide{
+    display: none;
+    overflow: auto;
+    z-index: 1;
+}
+.show{
+    display: block !important;
+}
+.showDropdown{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 50px;
+
+}
